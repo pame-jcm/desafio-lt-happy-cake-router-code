@@ -1,0 +1,31 @@
+// FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
+
+$font-family-sans-serif: 'Raleway', sans-serif;
+$component-active-bg:black;
+// THEME COLORS
+
+$theme-happy-cake: (
+    'white':#fff,
+    'navRed':#dc3546,
+    'gris':#636161,
+    'taupe':#3d3d3d,
+    'granite':#1e1e28,
+    'black': #1f1e1e
+);
+
+
+// TOOLTIPS 
+
+$tooltip-bg: #a0a0a0;
+
+
+
+// DECLARATION
+
+@import '../../../node_modules/bootstrap/scss/_functions.scss';
+@import '../../../node_modules/bootstrap/scss/_variables.scss';
+@import '../../../node_modules/bootstrap/scss/_mixins.scss';
+
+$theme-colors: map-merge($theme-colors, $theme-happy-cake);
